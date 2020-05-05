@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/rms1?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <mapping resource="pojo/Customerpark.hbm.xml"/>
+    <mapping resource="pojo/OrderFood.hbm.xml"/>
+    <mapping resource="pojo/Sndmessagetosupplier.hbm.xml"/>
+    <mapping resource="pojo/BookingTable.hbm.xml"/>
+    <mapping resource="pojo/Customer.hbm.xml"/>
+    <mapping resource="pojo/Menu.hbm.xml"/>
+    <mapping resource="pojo/Stock.hbm.xml"/>
+    <mapping resource="pojo/Review.hbm.xml"/>
+    <mapping resource="pojo/Foodrecipie.hbm.xml"/>
+    <mapping resource="pojo/Attendancemarking.hbm.xml"/>
+    <mapping resource="pojo/Order.hbm.xml"/>
+    <mapping resource="pojo/Bill.hbm.xml"/>
+    <mapping resource="pojo/Employee.hbm.xml"/>
+    <mapping resource="pojo/ItemFood.hbm.xml"/>
+    <mapping resource="pojo/Item.hbm.xml"/>
+    <mapping resource="pojo/Parkslot.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

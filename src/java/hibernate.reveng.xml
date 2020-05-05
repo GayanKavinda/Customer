@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="rms1"/>
+  <table-filter match-name="order_food"/>
+  <table-filter match-name="order"/>
+  <table-filter match-name="parkslot"/>
+  <table-filter match-name="item_food"/>
+  <table-filter match-name="review"/>
+  <table-filter match-name="stock"/>
+  <table-filter match-name="customerpark"/>
+  <table-filter match-name="attendancemarking"/>
+  <table-filter match-name="sndmessagetosupplier"/>
+  <table-filter match-name="item"/>
+  <table-filter match-name="foodrecipie"/>
+  <table-filter match-name="bill"/>
+  <table-filter match-name="employee"/>
+  <table-filter match-name="menu"/>
+  <table-filter match-name="customer"/>
+  <table-filter match-name="booking_table"/>
+</hibernate-reverse-engineering>
